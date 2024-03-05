@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../WebServer_task"
+		},
+		{
+			"name": "dht11 sensor_web server",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
