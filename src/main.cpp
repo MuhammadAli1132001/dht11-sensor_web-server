@@ -112,15 +112,15 @@ void setup(void) {
 void loop() {
 
   server.handleClient();
-  // read the analog / millivolts value for pin 2:
+                                                                  // read the analog / millivolts value for pin 2:
   Humi = dht_sensor.readHumidity();
   Temp = dht_sensor.readTemperature();
   
-  // print out the values you read:
+                                                                  // print out the values you read:
   Serial.print(Humi);
   Serial.println();
   Serial.print(Temp);
   Serial.println();
   
-  delay(1000);  // delay in between reads for as dht11 has 1khz frequency 
+  delay(1000);                                                     // delay in between reads for as dht11 has 1khz frequency 
 }
